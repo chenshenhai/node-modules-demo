@@ -1,0 +1,15 @@
+{
+  "name": "demo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_cmd": "node ./cmd/index.js",
+    "test_es": "node --experimental-modules ./es/index.mjs"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 9.0.0"
+  }
+}

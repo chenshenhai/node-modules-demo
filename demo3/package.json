@@ -1,0 +1,16 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_cmd": "node ./cmd/index.js",
+    "test_es": "node --experimental-modules  --loader ./es/custom-loader.mjs ./es/index.js",
+    "test_es_c": "NODE_OPTIONS='--experimental-modules --loader ./es/custom-loader.mjs' node ./es/index.js " 
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 9.0.0"
+  }
+}
