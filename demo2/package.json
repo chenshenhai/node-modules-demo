@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test_cmd": "node ./cmd/index.js",
+    "test_com": "node ./com/index.js",
     "test_es": "node --experimental-modules ./es/index.mjs"
   },
   "author": "",
